@@ -1,0 +1,11 @@
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\bin\Debug\netcoreapp2.0\MyMovies.deps.json
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\bin\Debug\netcoreapp2.0\MyMovies.runtimeconfig.json
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\bin\Debug\netcoreapp2.0\MyMovies.runtimeconfig.dev.json
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\bin\Debug\netcoreapp2.0\MyMovies.dll
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\bin\Debug\netcoreapp2.0\MyMovies.pdb
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\obj\Debug\netcoreapp2.0\MyMovies.csprojResolveAssemblyReference.cache
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\obj\Debug\netcoreapp2.0\MyMovies.csproj.CoreCompileInputs.cache
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\obj\Debug\netcoreapp2.0\MyMovies.AssemblyInfoInputs.cache
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\obj\Debug\netcoreapp2.0\MyMovies.AssemblyInfo.cs
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\obj\Debug\netcoreapp2.0\MyMovies.dll
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\obj\Debug\netcoreapp2.0\MyMovies.pdb

@@ -1,0 +1,11 @@
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\bin\Debug\netcoreapp2.0\MyCV.deps.json
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\bin\Debug\netcoreapp2.0\MyCV.runtimeconfig.json
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\bin\Debug\netcoreapp2.0\MyCV.runtimeconfig.dev.json
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\bin\Debug\netcoreapp2.0\MyCV.dll
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\bin\Debug\netcoreapp2.0\MyCV.pdb
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\obj\Debug\netcoreapp2.0\MyCV.csprojResolveAssemblyReference.cache
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\obj\Debug\netcoreapp2.0\MyCV.csproj.CoreCompileInputs.cache
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\obj\Debug\netcoreapp2.0\MyCV.AssemblyInfoInputs.cache
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\obj\Debug\netcoreapp2.0\MyCV.AssemblyInfo.cs
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\obj\Debug\netcoreapp2.0\MyCV.dll
+C:\Users\Torres Nguyen\source\repos\MyMovies\MyMovies\obj\Debug\netcoreapp2.0\MyCV.pdb

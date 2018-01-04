@@ -1,0 +1,74 @@
+﻿@model IEnumerable<MyCV.Models.Skills>
+@using System.Data;
+@using System.Text;
+@using System.Web;
+@using System.Data.SqlClient;
+@using System.Configuration;
+
+
+@{
+    ViewData["Title"] = "Professional Skills";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Skill)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Proficiency)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Skill)
+            </td>
+            <td>
+
+                <!--@Html.DisplayFor(modelItem => item.Proficiency)-->
+                <canvas id=@item.ID></canvas>
+                <div id="myLegend"></div>
+                <script src="~/js/myChart.js"></script>
+                <script>
+                    var myCanvas = document.getElementById(@item.ID);
+                    
+                    var mySkill = {
+                        "Proficiency":@item.Proficiency,
+                        "Shortage": @(100 - item.Proficiency)
+
+                    };
+                    var myPiechart = new Piechart(
+                        {
+                            canvas: myCanvas,
+                            data: mySkill,
+                            colors: ["#0e1ca5", "#e9140f"],
+                            legend: myLegend
+                        }
+                    );
+                    myPiechart.draw();
+                </script>
+
+
+
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
